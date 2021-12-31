@@ -1,0 +1,54 @@
+img {
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card {
+  width: 320px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 5px;
+  background-color: white;
+  overflow: hidden;
+}
+
+body {
+  font-family: "sans-serif";
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.viewButton, .editButton {
+  color: #888;
+  background-color: white;
+  border: 1px solid #888;
+  display: inline-block;
+}
+
+span {
+  margin-left: 47%;
+}
+
+.editButton {
+  border-radius: 0 3px 3px 0;
+  margin-left: -5px;
+}
+
+.viewButton {
+  margin-left: 10px;
+  margin-right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+footer {
+  margin-bottom: 5px;
+  padding-bottom: 15px;
+}
+
+time {
+  color: #888;
+  
+}
