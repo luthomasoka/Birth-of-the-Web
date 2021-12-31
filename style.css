@@ -1,0 +1,340 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@500&display=swap');
+
+body {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Raleway", serif;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+h2.head-1:hover {
+    color: hsl(220, 98%, 61%);
+    transform: translateY(-10px);
+    transition: all 0.25s;
+}
+
+h2.head-2:hover {
+    background: linear-gradient(135deg, #55DDFF 0%, #C058F3 100%);
+    padding: 20px;
+    transition: all 0.25s;
+}
+
+
+p, ul {
+  line-height: 1.75em;
+  margin: 10px;
+}
+
+nav a {
+  color: #998FC7;
+  font-size: 22px;
+  text-decoration: none;
+  margin-right: 50px;
+  transition: all 0.25s;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 110px auto; 
+  background-color: #002A32;
+  align-items: center;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+  
+  justify-items: end;
+}
+
+nav a:hover {
+  color: #998FC7;
+  background-color: #5E4352;
+  padding: 30px;
+}
+
+footer {
+  display: grid;
+  height: 200px;
+  grid-template-columns: repeat(2, auto);
+  background-color: #002A32;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer p {
+  color: #998FC7;
+}
+
+.social a {
+  margin-left: 10px;
+}
+
+figure {
+  width: 400px;
+  height: 100%;
+}
+
+article p {
+  background-color: white;
+}
+
+.logo-img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.logo-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.social {
+  justify-self: center;
+  margin-left: 20px;
+}
+
+.banner-box img {
+  width: 100%;
+  height: 800px;
+}
+
+.banner-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.banner-box img {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.banner-msg {
+  grid-column: 1/6;
+  grid-row: 1/3;
+  margin-top:100px;
+  color: hsl(220, 98%, 61%);
+}
+
+.banner-msg h1 {
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  line-height: 2em;
+  
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1em;
+}
+
+.headline-1 {
+  grid-column: 2 / 4;
+  grid-row: 1/2;
+  margin-top: 80px;
+  justify-items: center;
+}
+
+.paragraph-1 {
+  grid-column: 1 / 4;
+  grid-row: 2/3;
+}
+
+.list-1 {
+  grid-column: 1 / 4;
+  grid-row: 3/4;
+}
+
+.headline-2 {
+  grid-column: 1 / 4;
+  grid-row: 4/5;
+}
+
+.paragraph-2 {
+  grid-column: 1 / 4;
+  grid-row: 5/6;
+}
+
+.list-2 {
+  grid-column: 1 / 4;
+  grid-row: 6/7;
+}
+
+.paragraph-2-1 {
+  grid-column: 1 / 4;
+  grid-row: 7/8;
+}
+
+.headline-3 {
+  grid-column: 2 / 4;
+  grid-row: 8/9;
+}
+
+.paragraph-3 {
+  grid-column: 1 / 4;
+  grid-row: 9/10;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1em;
+}
+
+.section-1 {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+
+.section-2 {
+  grid-column: 1 / 4;
+  grid-row: 4 / 5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-1, 
+.section-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  background-color: white;
+}
+
+.head-1 {
+  grid-column: 2 / 3;
+  grid-row: 1/2;
+  justify-self: center;
+}
+
+.para-1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+.fig-1 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  justify-self: end;
+  align-self: start;
+}
+
+.head-2 {
+  grid-column: 2 / 3;
+  justify-self: center;
+}
+
+.para-2 {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  justify-self: stretch;
+}
+
+.fig-2 {
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+
+body, html {
+  height: 100%;
+}
+
+.main-form {
+  display: flex;
+  justify-content: center;
+
+}
+
+.form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 500px;
+}
+
+form ul li {
+  list-style-type: none;
+  
+}
+
+label {
+  color: #998FC7;
+}
+
+
+textarea, input {
+  border-radius: 12px;
+  border: 0;
+  color: #eee;
+  height: 100%;
+  width: 95%;
+  outline: 0;
+  padding: 4px 20px 0;
+  background-color: #303245;
+
+}
+
+button {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://cdn.glitch.me/86e8322c-5cfc-48c7-8c45-0dd602b520a8%2Fkobu-agency-unsplash.jpg?v=1638147781655");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 550px) { 
+/* beginning of media query */
+  
+  .main-grid, nav ul, .banner-box {
+    display: block;
+}
